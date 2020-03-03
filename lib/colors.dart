@@ -20,25 +20,18 @@
  */
 
 import 'package:flutter/material.dart';
-import 'package:flutter_test/flutter_test.dart';
 
-import 'package:fshop/app.dart';
+const kShrinePink50 = const Color(0xFFFEEAE6);
+const kShrinePink100 = const Color(0xFFFEDBD0);
+const kShrinePink300 = const Color(0xFFFBB8AC);
+const kShrinePink400 = const Color(0xFFEAA4A4);
 
-void main() {
-  testWidgets('Counter increments smoke test', (WidgetTester tester) async {
-    // Build our app and trigger a frame.
-    await tester.pumpWidget(ShrineApp());
+const kShrineBrown900 = const Color(0xFF442B2D);
 
-    // Verify that our counter starts at 0.
-    expect(find.text('0'), findsOneWidget);
-    expect(find.text('1'), findsNothing);
+const kShrineErrorRed = const Color(0xFFC5032B);
 
-    // Tap the '+' icon and trigger a frame.
-    await tester.tap(find.byIcon(Icons.add));
-    await tester.pump();
+const kShrineSurfaceWhite = const Color(0xFFFFFBFA);
+const kShrineBackgroundWhite = Colors.white;
 
-    // Verify that our counter has incremented.
-    expect(find.text('0'), findsNothing);
-    expect(find.text('1'), findsOneWidget);
-  });
-}
+const kShrinePurple = Color(0xFF5D1049);
+const kShrineBlack = Color(0xFF000000);
