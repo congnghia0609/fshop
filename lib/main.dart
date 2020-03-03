@@ -23,4 +23,5 @@ import 'package:flutter/material.dart';
 
 import 'package:fshop/app.dart';
 
+// https://codelabs.developers.google.com/codelabs/mdc-103-flutter/#0
 void main() => runApp(ShrineApp());
